@@ -1,0 +1,516 @@
+/* Resolución base Desktop 1440*900 y 1600*900 */
+
+/* Fuente */
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p h6{
+    color: #8C8C94;
+    font-size: 16px;
+}
+
+/* Header Styles - Panel con movilidad de scroll y transparecia */
+
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: #1E1E26;
+}
+
+nav{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav li{
+    margin: 15px;
+}
+nav a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #242E52;
+
+}
+
+.menu-responsive{
+    display: none;
+}
+
+
+/* Enlaces con hover */
+a:hover{
+    cursor: pointer;
+    color: #7c7c7c;
+    padding: 0.4px;
+    
+}
+
+/* Botoneria */
+
+
+.bton {
+    text-align: center;
+    padding: 10px;
+    width: 135px;
+    border-radius: 50px;
+    border-style: hidden;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Colores btones */
+
+.morado {
+    width: 135px;
+    background-color:#8B48BF ;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+.white{
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    color: #8B48BF;
+}
+
+
+
+/* animaciones con hover */
+
+.bton.morado:hover{
+    
+    background: rgba(139, 72, 191, 0.7);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 11px;
+}
+
+.bton.white:hover{
+    background: rgba(240, 240, 240, 0.9);
+    cursor: pointer;
+    border: none;
+    padding: 11px;
+}
+
+.btn-sm{
+    background-color:#8B48BF ;
+    color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border-style: hidden;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px;
+    width: 60px;
+}
+
+.btn-sm:hover{
+    background: rgba(139, 72, 191, 0.7);
+    cursor: pointer;
+    border: none;
+    
+}
+
+/* Main */
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 5% 2%;
+}
+
+.flex-simple{
+    display: flex;
+}
+
+.producto1{
+    margin-top: 5%;
+    
+}
+
+.producto1 h2{
+    font-size: 55px;
+    font-weight: 700;
+    color: #232C50 ;
+    
+}
+#producto1-parrafo{
+    margin-right: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    
+}
+
+.producto2{
+    margin: 5%;
+    
+}
+
+
+.nosotros1 h3{
+    color: #232851;
+    font-weight: 700;
+    font-size: 36px;
+    
+}
+
+#parrafo-nosotros{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 157.1%;
+}
+
+.nosotros2{
+    margin-left: 10%;
+}
+
+.flex-simple h3{
+    margin-left: 10px;
+}
+
+.flex-simple .btn-sm{
+    background-color:#8B48BF;
+    color: #fff;
+    border-radius: 50px;
+    border-style: hidden;
+    width: 55px;
+    height: 35px;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.diferenciador{
+    font-size: 16px;
+    color: #B3B2B7;
+    font-weight: 500;
+    align-items: center;
+    line-height: 26px;
+    margin-left: 70px;
+}
+
+#titulo-testimonios{
+    margin-top: 10%;
+    margin-bottom: 8%;
+    text-align: center;
+    align-content: center;
+    color: #242E53;
+    font-size: 39px;
+    font-weight: 700;  
+}
+
+.flext{
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonios{
+    background-color:#FAFAFA;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card p{
+    font-weight: 400;
+    color: #B9B9C1;
+    line-height: 156.6%;
+    text-align: center;
+    margin: 0px 40px;
+}
+
+.card img{
+    width: 70px;
+    height: 70px;
+}
+
+#boton-testimonios{
+    margin-top: 3%;    
+    text-align: center;
+    align-content: center;
+}
+/* Footer */
+.foot-mobile1{
+    display: none;
+}
+
+.footer3-mobile{
+display: none;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8B48BF;
+    color: #fff;
+    padding: 4%;
+    margin-top: 10%;
+}
+
+.footer1 div{
+    margin: 0 5%;
+}
+
+.footer1 h2{
+    font-size: 40px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1E1E26;
+    color: #fff;
+    padding: 3% 0;
+}
+
+
+.menu-footer li{
+    list-style: none;
+    line-height: 30px;
+}
+.menu-footer a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 40px;
+    text-decoration: none;
+}
+
+.menu-footer input{
+    font-size: 13px;
+    width: 200px;
+    color: #A0A0A0;
+    font-weight: 400;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.copyrightdesk{
+    display: flex;
+    flex-direction: row;
+    margin-left: 35%;
+}
+
+.menu-footer span{
+    margin-top: 40%;
+    font-size: 10px;
+    font-weight: 300;
+    color: #8C8C94;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.esconder1{
+    display: none;
+}
+
+                                            /* Estilos responsive */
+
+@media (max-width: 480px) {
+    
+    .menu-responsive{
+        display: block;
+    }
+
+    .menu-responsive i{
+        margin-left: 100px;
+        padding-right: -50%;
+    }
+
+    nav{
+        display: none;
+    }
+
+    #bton-esconder{
+        display: none;
+    }
+
+    /* Acomodando todos los elementos contenidos en main */
+    main{
+        flex-direction: column;
+        margin-top: 20%; 
+    }
+
+    .producto{
+        flex-direction: column-reverse;
+        align-content: center;
+        padding-bottom: 5px;
+    }
+    .producto1 h2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #producto1-parrafo{
+        width: 80%;
+        font-size: 15px;
+        text-align: center;
+        margin:5% 10%; 
+    }
+
+    .producto1 a{
+        
+        margin-left: 35%;
+    }
+    /* Margen negativa para img estadisticas más pegado al menú*/
+    .producto2{
+        margin-top: -20%;
+    }
+
+    /* Size imagen estadisticas*/
+    .producto2 img{
+        width: 100%;
+    }
+
+
+    /*Sección nosotros */
+    #nosotros{
+        flex-direction: column;
+        margin-top: 15%;
+        align-items: center;
+    }
+    .nosotros1 h3{
+     text-align: center;
+     
+    }
+
+    .nosotros1 p{
+        text-align: center;
+    }
+
+     
+
+    .nosotros2{
+        margin-top: 30%;
+    }
+
+    .nosotros2 {
+        margin-left: -5%;
+    }
+
+    .nosotros2 .flex-simple{
+        background-color: #8B48BF4D;
+        width: 100%;
+        height: 40px;
+        border-radius: 25px 0 0 25px;
+    }
+
+    .nosotros2 .btn-sm {
+        margin-top: 1px;
+        height: 40px;
+    }
+
+    .nosotros2 h3{
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .nosotros2 p{
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .tarjetas{
+        display: none;
+    }
+    
+    .esconder1{
+        display: block;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #FAFAFA;
+    }
+
+    .esconder1 img{
+        width: 25%;
+    }
+    
+
+    /*Footer */
+    .footer1{ 
+        flex-direction: column;
+        align-content: center;
+        padding-bottom: 40px;
+    }
+
+    .footer1 h2{
+        text-align: center;
+    }
+
+    .footer2{
+        display: none;
+    }
+
+    .footer3-mobile{
+        display: flex;
+        flex-direction: column;
+        background-color: #1E1E26;
+        padding: 15% 0%;
+        
+    }
+
+    .footer3-mobile img{
+        width: 100%;
+    }
+
+    .footer3-mobile input{
+        border-radius: 50px;
+        width: 200px;
+        height: 30px;
+    }
+
+    .footer3-mobile .menu-footer{
+        margin-left: -15%;
+
+    }
+
+    .redes a{
+        color: #FAFAFA;
+    }
+    
+    .footer3-mobile img{
+        padding: 10% 0%;
+        width: 50%;
+    }
+
+    .footer3-mobile span{
+        color: #8C8C94;
+        font-weight: 200;
+        font-size: 12.5px;
+    }
+
+
+
+}
