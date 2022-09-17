@@ -1,7 +1,0 @@
-Enlace Youtube - muestra vista del sitio en tamaño de pantalla trabajado.
-
-https://youtu.be/lVwka8F_sFw    
-
-Enlace GithubPages
-
-https://github.com/todlion93/entregafront1.github.io
